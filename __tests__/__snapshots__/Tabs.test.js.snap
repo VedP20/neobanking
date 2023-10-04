@@ -1,0 +1,1932 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+[
+  <RCTScrollView
+    contentContainerStyle={{}}
+    contentInset={
+      {
+        "bottom": 20,
+      }
+    }
+    showsVerticalScrollIndicator={false}
+    style={
+      {
+        "backgroundColor": "rgb(242, 242, 242)",
+        "flex": 1,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          {
+            "paddingHorizontal": 16,
+          }
+        }
+      >
+        <LinearGradient
+          angle={108}
+          angleCenter={
+            {
+              "x": 0.5,
+              "y": 0.5,
+            }
+          }
+          colors={
+            [
+              "#E94367",
+              "#E93F33",
+              "#EA5033",
+            ]
+          }
+          style={
+            {
+              "Height": 200,
+              "borderRadius": 20,
+              "padding": 16,
+              "width": "100%",
+            }
+          }
+          useAngle={true}
+        >
+          <View
+            style={
+              {
+                "backgroundColor": "#ED8386",
+                "borderRadius": 8,
+                "padding": 8,
+                "width": "70%",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "white",
+                  "fontSize": 16,
+                }
+              }
+            >
+              Wallet Balance
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "color": "white",
+                    "fontSize": 16,
+                  },
+                  {
+                    "fontSize": 20,
+                    "fontWeight": "800",
+                    "marginTop": 4,
+                  },
+                ]
+              }
+            >
+              $5600.00
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "flexDirection": "row",
+                "gap": 8,
+                "marginVertical": 16,
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "color": "white",
+                    "fontSize": 16,
+                  },
+                  {
+                    "fontSize": 14,
+                  },
+                ]
+              }
+            >
+              UPI ID: 21232324232@farmaxis
+            </Text>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={false}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "opacity": 1,
+                }
+              }
+            >
+              <Ionicons
+                color="white"
+                name="copy-outline"
+                size={24}
+              />
+            </View>
+          </View>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={false}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "black",
+                "borderRadius": 48,
+                "flexDirection": "row",
+                "gap": 6,
+                "height": 46,
+                "justifyContent": "center",
+                "opacity": 1,
+                "width": "50%",
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "color": "white",
+                    "fontSize": 16,
+                    "lineHeight": 16,
+                  },
+                  {},
+                  false,
+                  undefined,
+                ]
+              }
+            >
+              Add money
+            </Text>
+            <Ionicons
+              color="white"
+              name="chevron-forward-outline"
+              size={16}
+            />
+          </View>
+        </LinearGradient>
+      </View>
+      <View>
+        <View
+          style={
+            {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "space-between",
+                "marginVertical": 24,
+              }
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={false}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "alignItems": "center",
+                  "aspectRatio": 1,
+                  "backgroundColor": "white",
+                  "borderRadius": 8,
+                  "elevation": 6,
+                  "height": 56,
+                  "justifyContent": "center",
+                  "marginBottom": 8,
+                  "opacity": 1,
+                }
+              }
+            >
+              <Ionicons
+                color="gray"
+                name="home-outline"
+                size={24}
+              />
+            </View>
+            <Text
+              style={
+                {
+                  "color": "gray",
+                  "flexWrap": "wrap",
+                  "fontSize": 14,
+                  "maxWidth": 56,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Bank transfer
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "space-between",
+                "marginVertical": 24,
+              }
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={false}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "alignItems": "center",
+                  "aspectRatio": 1,
+                  "backgroundColor": "white",
+                  "borderRadius": 8,
+                  "elevation": 6,
+                  "height": 56,
+                  "justifyContent": "center",
+                  "marginBottom": 8,
+                  "opacity": 1,
+                }
+              }
+            >
+              <Ionicons
+                color="gray"
+                name="scan-outline"
+                size={24}
+              />
+            </View>
+            <Text
+              style={
+                {
+                  "color": "gray",
+                  "flexWrap": "wrap",
+                  "fontSize": 14,
+                  "maxWidth": 56,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Scan QR Code
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "space-between",
+                "marginVertical": 24,
+              }
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={false}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "alignItems": "center",
+                  "aspectRatio": 1,
+                  "backgroundColor": "white",
+                  "borderRadius": 8,
+                  "elevation": 6,
+                  "height": 56,
+                  "justifyContent": "center",
+                  "marginBottom": 8,
+                  "opacity": 1,
+                }
+              }
+            >
+              <Ionicons
+                color="gray"
+                name="at-circle-outline"
+                size={24}
+              />
+            </View>
+            <Text
+              style={
+                {
+                  "color": "gray",
+                  "flexWrap": "wrap",
+                  "fontSize": 14,
+                  "maxWidth": 56,
+                  "textAlign": "center",
+                }
+              }
+            >
+              UPI transfer
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "space-between",
+                "marginVertical": 24,
+              }
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={false}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "alignItems": "center",
+                  "aspectRatio": 1,
+                  "backgroundColor": "white",
+                  "borderRadius": 8,
+                  "elevation": 6,
+                  "height": 56,
+                  "justifyContent": "center",
+                  "marginBottom": 8,
+                  "opacity": 1,
+                }
+              }
+            >
+              <Ionicons
+                color="gray"
+                name="document-text-outline"
+                size={24}
+              />
+            </View>
+            <Text
+              style={
+                {
+                  "color": "gray",
+                  "flexWrap": "wrap",
+                  "fontSize": 14,
+                  "maxWidth": 56,
+                  "textAlign": "center",
+                }
+              }
+            >
+              View Expenses
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={{}}
+        >
+          <Text
+            style={
+              {
+                "color": "black",
+                "fontSize": 18,
+                "fontWeight": "700",
+                "margin": 16,
+              }
+            }
+          >
+            Recent Transactions
+          </Text>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "white",
+                "borderBottomColor": "rgb(216, 216, 216)",
+                "borderBottomWidth": 1,
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingHorizontal": 16,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "aspectRatio": 1,
+                    "backgroundColor": "rgb(0, 122, 255)",
+                    "borderRadius": 48,
+                    "height": 48,
+                    "justifyContent": "center",
+                    "marginRight": 8,
+                    "marginVertical": 8,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "white",
+                      "fontSize": 18,
+                      "fontWeight": "500",
+                    }
+                  }
+                >
+                  V
+                </Text>
+              </View>
+              <View
+                style={
+                  {
+                    "flexDirection": "column",
+                    "gap": 4,
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 16,
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  Ved Prakash
+                </Text>
+                <View
+                  style={
+                    {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "gap": 8,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "gray",
+                        "fontSize": 14,
+                      }
+                    }
+                  >
+                    4:27 pm
+                    ,
+                  </Text>
+                  <Text
+                    style={
+                      {
+                        "color": "gray",
+                        "fontSize": 14,
+                      }
+                    }
+                  >
+                    from: 
+                    Kotak Bank
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "flex-end",
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 18,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                +$100
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "white",
+                "borderBottomColor": "rgb(216, 216, 216)",
+                "borderBottomWidth": 1,
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingHorizontal": 16,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "aspectRatio": 1,
+                    "backgroundColor": "rgb(0, 122, 255)",
+                    "borderRadius": 48,
+                    "height": 48,
+                    "justifyContent": "center",
+                    "marginRight": 8,
+                    "marginVertical": 8,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "white",
+                      "fontSize": 18,
+                      "fontWeight": "500",
+                    }
+                  }
+                >
+                  J
+                </Text>
+              </View>
+              <View
+                style={
+                  {
+                    "flexDirection": "column",
+                    "gap": 4,
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 16,
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  John Doe
+                </Text>
+                <View
+                  style={
+                    {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "gap": 8,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "gray",
+                        "fontSize": 14,
+                      }
+                    }
+                  >
+                    5:15 pm
+                    ,
+                  </Text>
+                  <Text
+                    style={
+                      {
+                        "color": "gray",
+                        "fontSize": 14,
+                      }
+                    }
+                  >
+                    from: 
+                    Chase Bank
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "flex-end",
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 18,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                +$50
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={{}}
+        >
+          <Text
+            style={
+              {
+                "color": "black",
+                "fontSize": 18,
+                "fontWeight": "700",
+                "margin": 16,
+                "marginTop": 32,
+              }
+            }
+          >
+            Payment Pending
+          </Text>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "white",
+                "borderBottomColor": "rgb(216, 216, 216)",
+                "borderBottomWidth": 1,
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingHorizontal": 16,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "aspectRatio": 1,
+                    "backgroundColor": "rgb(0, 122, 255)",
+                    "borderRadius": 48,
+                    "height": 48,
+                    "justifyContent": "center",
+                    "marginRight": 8,
+                    "marginVertical": 8,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "rgb(255, 255, 255)",
+                      "fontSize": 18,
+                      "fontWeight": "500",
+                    }
+                  }
+                >
+                  V
+                </Text>
+              </View>
+              <View
+                style={
+                  {
+                    "flexDirection": "column",
+                    "gap": 4,
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 16,
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  Ved Prakash
+                </Text>
+                <View
+                  style={
+                    {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "gap": 8,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "gray",
+                        "fontSize": 14,
+                      }
+                    }
+                  >
+                    4:27 pm
+                    ,
+                  </Text>
+                  <Text
+                    style={
+                      {
+                        "color": "gray",
+                        "fontSize": 14,
+                      }
+                    }
+                  >
+                    from: 
+                    Kotak Bank
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "flex-end",
+                  "width": 100,
+                }
+              }
+            >
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "transparent",
+                    "borderColor": "black",
+                    "borderRadius": 12,
+                    "borderWidth": 1,
+                    "flexDirection": "row",
+                    "gap": 6,
+                    "height": 36,
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "width": "80%",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "white",
+                        "fontSize": 16,
+                        "lineHeight": 16,
+                      },
+                      false,
+                      {
+                        "color": "black",
+                      },
+                      {
+                        "fontSize": 13,
+                      },
+                    ]
+                  }
+                >
+                  Send Money
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "white",
+                "borderBottomColor": "rgb(216, 216, 216)",
+                "borderBottomWidth": 1,
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingHorizontal": 16,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "aspectRatio": 1,
+                    "backgroundColor": "rgb(0, 122, 255)",
+                    "borderRadius": 48,
+                    "height": 48,
+                    "justifyContent": "center",
+                    "marginRight": 8,
+                    "marginVertical": 8,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "rgb(255, 255, 255)",
+                      "fontSize": 18,
+                      "fontWeight": "500",
+                    }
+                  }
+                >
+                  J
+                </Text>
+              </View>
+              <View
+                style={
+                  {
+                    "flexDirection": "column",
+                    "gap": 4,
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 16,
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  John Doe
+                </Text>
+                <View
+                  style={
+                    {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "gap": 8,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "gray",
+                        "fontSize": 14,
+                      }
+                    }
+                  >
+                    5:15 pm
+                    ,
+                  </Text>
+                  <Text
+                    style={
+                      {
+                        "color": "gray",
+                        "fontSize": 14,
+                      }
+                    }
+                  >
+                    from: 
+                    Chase Bank
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "flex-end",
+                  "width": 100,
+                }
+              }
+            >
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "transparent",
+                    "borderColor": "black",
+                    "borderRadius": 12,
+                    "borderWidth": 1,
+                    "flexDirection": "row",
+                    "gap": 6,
+                    "height": 36,
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "width": "80%",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "white",
+                        "fontSize": 16,
+                        "lineHeight": 16,
+                      },
+                      false,
+                      {
+                        "color": "black",
+                      },
+                      {
+                        "fontSize": 13,
+                      },
+                    ]
+                  }
+                >
+                  Send Money
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "white",
+                "borderBottomColor": "rgb(216, 216, 216)",
+                "borderBottomWidth": 1,
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingHorizontal": 16,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "aspectRatio": 1,
+                    "backgroundColor": "rgb(0, 122, 255)",
+                    "borderRadius": 48,
+                    "height": 48,
+                    "justifyContent": "center",
+                    "marginRight": 8,
+                    "marginVertical": 8,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "rgb(255, 255, 255)",
+                      "fontSize": 18,
+                      "fontWeight": "500",
+                    }
+                  }
+                >
+                  J
+                </Text>
+              </View>
+              <View
+                style={
+                  {
+                    "flexDirection": "column",
+                    "gap": 4,
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 16,
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  John Doe
+                </Text>
+                <View
+                  style={
+                    {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "gap": 8,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "gray",
+                        "fontSize": 14,
+                      }
+                    }
+                  >
+                    5:15 pm
+                    ,
+                  </Text>
+                  <Text
+                    style={
+                      {
+                        "color": "gray",
+                        "fontSize": 14,
+                      }
+                    }
+                  >
+                    from: 
+                    Chase Bank
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "flex-end",
+                  "width": 100,
+                }
+              }
+            >
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "transparent",
+                    "borderColor": "black",
+                    "borderRadius": 12,
+                    "borderWidth": 1,
+                    "flexDirection": "row",
+                    "gap": 6,
+                    "height": 36,
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "width": "80%",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "white",
+                        "fontSize": 16,
+                        "lineHeight": 16,
+                      },
+                      false,
+                      {
+                        "color": "black",
+                      },
+                      {
+                        "fontSize": 13,
+                      },
+                    ]
+                  }
+                >
+                  Send Money
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "white",
+                "borderBottomColor": "rgb(216, 216, 216)",
+                "borderBottomWidth": 1,
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingHorizontal": 16,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "aspectRatio": 1,
+                    "backgroundColor": "rgb(0, 122, 255)",
+                    "borderRadius": 48,
+                    "height": 48,
+                    "justifyContent": "center",
+                    "marginRight": 8,
+                    "marginVertical": 8,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "rgb(255, 255, 255)",
+                      "fontSize": 18,
+                      "fontWeight": "500",
+                    }
+                  }
+                >
+                  J
+                </Text>
+              </View>
+              <View
+                style={
+                  {
+                    "flexDirection": "column",
+                    "gap": 4,
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 16,
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  John Doe
+                </Text>
+                <View
+                  style={
+                    {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "gap": 8,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "gray",
+                        "fontSize": 14,
+                      }
+                    }
+                  >
+                    5:15 pm
+                    ,
+                  </Text>
+                  <Text
+                    style={
+                      {
+                        "color": "gray",
+                        "fontSize": 14,
+                      }
+                    }
+                  >
+                    from: 
+                    Chase Bank
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "flex-end",
+                  "width": 100,
+                }
+              }
+            >
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "transparent",
+                    "borderColor": "black",
+                    "borderRadius": 12,
+                    "borderWidth": 1,
+                    "flexDirection": "row",
+                    "gap": 6,
+                    "height": 36,
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "width": "80%",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "white",
+                        "fontSize": 16,
+                        "lineHeight": 16,
+                      },
+                      false,
+                      {
+                        "color": "black",
+                      },
+                      {
+                        "fontSize": 13,
+                      },
+                    ]
+                  }
+                >
+                  Send Money
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "white",
+                "borderBottomColor": "rgb(216, 216, 216)",
+                "borderBottomWidth": 1,
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingHorizontal": 16,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "aspectRatio": 1,
+                    "backgroundColor": "rgb(0, 122, 255)",
+                    "borderRadius": 48,
+                    "height": 48,
+                    "justifyContent": "center",
+                    "marginRight": 8,
+                    "marginVertical": 8,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "rgb(255, 255, 255)",
+                      "fontSize": 18,
+                      "fontWeight": "500",
+                    }
+                  }
+                >
+                  J
+                </Text>
+              </View>
+              <View
+                style={
+                  {
+                    "flexDirection": "column",
+                    "gap": 4,
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 16,
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  John Doe
+                </Text>
+                <View
+                  style={
+                    {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "gap": 8,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "gray",
+                        "fontSize": 14,
+                      }
+                    }
+                  >
+                    5:15 pm
+                    ,
+                  </Text>
+                  <Text
+                    style={
+                      {
+                        "color": "gray",
+                        "fontSize": 14,
+                      }
+                    }
+                  >
+                    from: 
+                    Chase Bank
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "flex-end",
+                  "width": 100,
+                }
+              }
+            >
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "transparent",
+                    "borderColor": "black",
+                    "borderRadius": 12,
+                    "borderWidth": 1,
+                    "flexDirection": "row",
+                    "gap": 6,
+                    "height": 36,
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "width": "80%",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "white",
+                        "fontSize": 16,
+                        "lineHeight": 16,
+                      },
+                      false,
+                      {
+                        "color": "black",
+                      },
+                      {
+                        "fontSize": 13,
+                      },
+                    ]
+                  }
+                >
+                  Send Money
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "white",
+                "borderBottomColor": "rgb(216, 216, 216)",
+                "borderBottomWidth": 1,
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingHorizontal": 16,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "aspectRatio": 1,
+                    "backgroundColor": "rgb(0, 122, 255)",
+                    "borderRadius": 48,
+                    "height": 48,
+                    "justifyContent": "center",
+                    "marginRight": 8,
+                    "marginVertical": 8,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "rgb(255, 255, 255)",
+                      "fontSize": 18,
+                      "fontWeight": "500",
+                    }
+                  }
+                >
+                  J
+                </Text>
+              </View>
+              <View
+                style={
+                  {
+                    "flexDirection": "column",
+                    "gap": 4,
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 16,
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  John Doe
+                </Text>
+                <View
+                  style={
+                    {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "gap": 8,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "gray",
+                        "fontSize": 14,
+                      }
+                    }
+                  >
+                    5:15 pm
+                    ,
+                  </Text>
+                  <Text
+                    style={
+                      {
+                        "color": "gray",
+                        "fontSize": 14,
+                      }
+                    }
+                  >
+                    from: 
+                    Chase Bank
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "flex-end",
+                  "width": 100,
+                }
+              }
+            >
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "transparent",
+                    "borderColor": "black",
+                    "borderRadius": 12,
+                    "borderWidth": 1,
+                    "flexDirection": "row",
+                    "gap": 6,
+                    "height": 36,
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "width": "80%",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "white",
+                        "fontSize": 16,
+                        "lineHeight": 16,
+                      },
+                      false,
+                      {
+                        "color": "black",
+                      },
+                      {
+                        "fontSize": 13,
+                      },
+                    ]
+                  }
+                >
+                  Send Money
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>,
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "bottom": 24,
+        "justifyContent": "center",
+        "position": "absolute",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "black",
+          "borderRadius": 48,
+          "flexDirection": "row",
+          "gap": 6,
+          "height": 46,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": "40%",
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "white",
+              "fontSize": 16,
+              "lineHeight": 16,
+            },
+            {},
+            false,
+            undefined,
+          ]
+        }
+      >
+        Scan & Pay
+      </Text>
+      <Ionicons
+        color="white"
+        name="scan-outline"
+        size={16}
+      />
+    </View>
+  </View>,
+]
+`;

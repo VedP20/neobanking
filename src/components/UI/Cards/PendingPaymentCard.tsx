@@ -1,4 +1,4 @@
-import {StyleSheet, Text, View, FlatList} from 'react-native';
+import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 import Button from '../../constants/Button';
 import {useTheme} from '@react-navigation/native';
@@ -62,7 +62,7 @@ const PendingPaymentCard = ({item}: any) => {
       paddingHorizontal: 16,
     },
     image: {
-      backgroundColor: 'red',
+      backgroundColor: colors.primary,
       height: 48,
       aspectRatio: 1,
       justifyContent: 'center',
@@ -76,7 +76,7 @@ const PendingPaymentCard = ({item}: any) => {
       alignItems: 'center',
     },
     textStyle: {
-      color: 'white',
+      color: colors.card,
       fontWeight: '500',
       fontSize: 18,
     },
@@ -103,13 +103,9 @@ const PendingPaymentCard = ({item}: any) => {
       fontSize: 14,
       color: 'gray',
     },
-    amount: {
+    buttonContainer: {
       alignItems: 'flex-end',
       width: 100,
-    },
-    amountTextStyle: {
-      fontSize: 18,
-      fontWeight: 'bold',
     },
   });
   return (
@@ -126,7 +122,7 @@ const PendingPaymentCard = ({item}: any) => {
           </View>
         </View>
       </View>
-      <View style={styles.amount}>
+      <View style={styles.buttonContainer}>
         <Button
           title="Send Money"
           variant="Outlined"
@@ -140,12 +136,11 @@ const PendingPaymentCard = ({item}: any) => {
 
 const TransactionList = () => {
   return (
-    <FlatList
-      horizontal={false}
-      data={dummyData}
-      keyExtractor={item => item.id}
-      renderItem={({item}) => <PendingPaymentCard item={item} />}
-    />
+    <>
+      {dummyData.map(item => (
+        <PendingPaymentCard key={item.id} item={item} />
+      ))}
+    </>
   );
 };
 

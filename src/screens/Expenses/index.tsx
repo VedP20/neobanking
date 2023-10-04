@@ -4,7 +4,7 @@ import React from 'react';
 const Expenses = () => {
   return (
     <View style={styles.container}>
-      <Text>Expenses</Text>
+      <Text style={{ color: 'red' }}>Expenses</Text>
     </View>
   );
 };

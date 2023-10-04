@@ -1,5 +1,5 @@
-import {StyleSheet, TouchableOpacity, View} from 'react-native';
 import React from 'react';
+import {StyleSheet, TouchableOpacity, View} from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 const Header = () => {

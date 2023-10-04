@@ -1,4 +1,4 @@
-import {StyleSheet, Text, View, FlatList} from 'react-native';
+import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 import {useTheme} from '@react-navigation/native';
 
@@ -32,7 +32,7 @@ const TransactionCard = ({item}: any) => {
       paddingHorizontal: 16,
     },
     image: {
-      backgroundColor: 'red',
+      backgroundColor: colors.primary,
       height: 48,
       aspectRatio: 1,
       justifyContent: 'center',
@@ -105,12 +105,11 @@ const TransactionCard = ({item}: any) => {
 
 const TransactionList = () => {
   return (
-    <FlatList
-      horizontal={false}
-      data={dummyData}
-      keyExtractor={item => item.id}
-      renderItem={({item}) => <TransactionCard item={item} />}
-    />
+    <>
+      {dummyData.map(item => (
+        <TransactionCard key={item.id} item={item} />
+      ))}
+    </>
   );
 };
 
