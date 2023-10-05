@@ -1,4 +1,3 @@
-
 ## Step 1: Start the Metro Server
 
 First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
@@ -45,6 +44,7 @@ This is one way to run your app — you can also run it directly from within And
 
 To start the test of your app use the following command
 
+```bash
 # using npm
 npm run test
 
@@ -54,3 +54,4 @@ yarn test
 # OR to test a particular file or component use
 npm run test TestFileName (example App.test.js)
 
+```
